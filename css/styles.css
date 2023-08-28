@@ -124,7 +124,7 @@ nav {
     color: #ef3f29;
 }
 
-.fa-comments{
+.fa-comments {
     color: #ef8f29;
 }
 
@@ -213,39 +213,39 @@ nav {
 
 /* search domain*/
 
-.searchdomain-container{
+.searchdomain-container {
     background-color: #34454e;
     text-align: center;
-    padding: 5rem 0;   
+    padding: 5rem 0;
 }
 
-.searchdomain-container h2{
+.searchdomain-container h2 {
     color: white;
     font-size: 42px;
     margin-bottom: 15px;
 }
 
-.searchdomain-container p{
+.searchdomain-container p {
     color: #d5d5d5;
     font-size: 24px;
     margin-bottom: 25px;
 }
 
-.searchdomain-container input{
+.searchdomain-container input {
     display: block;
     border: none;
     border-radius: 5px;
     margin: 0 auto;
 }
 
-.searchdomain-container input[type="text"]{
+.searchdomain-container input[type="text"] {
     width: 60%;
     padding: 20px;
     font-size: 20px;
     margin-bottom: 25px;
 }
 
-.searchdomain-container input[type="submit"]{
+.searchdomain-container input[type="submit"] {
     background-color: #2cc76a;
     padding: 15px 30px;
     color: white;
