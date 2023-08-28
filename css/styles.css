@@ -317,3 +317,88 @@ footer {
     margin: 20px 0 100px;
     font-weight: bold;
 }
+
+/*responsividade*/
+
+/*celulares pequenos*/
+@media (max-width: 1100px) {
+    .plans-container {
+        width: 95%;
+    }
+
+    .plan {
+        margin: 0 5px;
+    }
+}
+
+/*tablet*/
+@media (max-width:900px) {
+    .main-banner p {
+        padding: 0 6rem;
+    }
+
+    .searchdomain-container {
+        padding: 4rem;
+    }
+}
+
+/*celular*/
+@media (max-width:576px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 3rem;
+    }
+
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        padding: 3rem 2rem;
+    }
+
+    .searchdomain-container h2 {
+        font-size: 28px;
+    }
+
+    .searchdomain-container input[type="text"] {
+        width: 100%;
+    }
+
+    .contact-container h2 {
+        font-size: 23px;
+    }
+
+    .contact-container p {
+        font-size: 18px;
+        margin: 4rem;
+    }
+
+    .main-banner p {
+        padding: 0 1rem;
+    }
+
+    .navbar-container li {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .services-container ul {
+        flex-direction: column;
+    }
+
+
+}
